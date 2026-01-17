@@ -113,7 +113,18 @@ The `simple_controller` and `noisy_controller` nodes accept the following parame
 
 These parameters can be set in the launch file or overridden via the command line.
 
-### 10. Note on Forward Differential Kinematics for a Differential Drive Robot
+### 10. Joystick Teleoperation
+
+This package includes a launch file for controlling the robot with a joystick.
+
+*   **`joystick_teleop.launch.py`**: This launch file starts the `joy_node` (for reading joystick input) and the `joy_teleop` node (for converting joystick input into `cmd_vel` messages).
+*   **Configuration**: The joystick mapping is defined in `config/joy_config.yaml`, and the teleoperation parameters are in `config/joy_teleop.yaml`.
+*   **To Launch**:
+    ```bash
+    ros2 launch bumperbot_controller joystick_teleop.launch.py
+    ```
+
+### 11. Note on Forward Differential Kinematics for a Differential Drive Robot
 
 Forward Differential Kinematics relates the wheel velocities to the robot's chassis velocity. For a differential drive robot, this is expressed using the Jacobian matrix.
 

@@ -1,9 +1,22 @@
-# ROS2 Gazebo Differential Drive Control & Localization
+# Bumperbot Workspace
 
-This repository is my personal workspace for learning Differential Drive Map & Localization by following the **"Self-Driving and ROS 2 - Learn by Doing! Map & Localization"** tutorial by [AntoBrandi](https://github.com/AntoBrandi).
+This repository is my personal workspace for learning Odometry, Control, Localization, and Mapping for a differential drive robot using ROS 2. It is based on the tutorial "Self-Driving and ROS 2 - Learn by Doing! Odometry & Control" by AntoBrandi.
 
-<img width="242" height="304" alt="image" src="https://github.com/user-attachments/assets/686d5901-1e4f-436c-ac99-62cf9bb4ea12" />
+<p align="center">
+  <img width="400" alt="Bumperbot in Gazebo" src="bumperbot_description/photos/DeskPortraitA_01.jpg">
+</p>
 
-https://github.com/user-attachments/assets/ce78ea03-a3c7-4505-a9e4-667a36cd703f
+## Packages
 
-The main goal is to implement and understand the concepts of localisation and mapping for a mobile robot using ROS 2. Each package in this workspace serves as a module for a specific functionality, and each contains its own `README.md` with detailed notes on the concepts I've learned.
+This workspace is organized into several ROS 2 packages, each with a specific purpose:
+
+-   **`bumperbot_bringup`**: Contains the main launch file to bring up the entire robot simulation.
+-   **`bumperbot_controller`**: Implements the controllers for the robot, including a simple and a noisy controller, and joystick teleoperation.
+-   **`bumperbot_cpp_examples`**: Contains C++ examples for various ROS 2 concepts.
+-   **`bumperbot_description`**: Contains the robot's URDF, meshes, and launch files for simulation and visualization.
+-   **`bumperbot_localization`**: Implements localization for the robot, including an EKF-based approach and a from-scratch Kalman filter.
+-   **`bumperbot_msgs`**: Defines custom ROS 2 messages and services.
+-   **`bumperbot_py_examples`**: Contains Python examples for various ROS 2 concepts.
+-   **`bumperbot_utils`**: Contains utility scripts.
+
+Each package has its own `README.md` file with more detailed notes on the concepts learned and the implementation details.

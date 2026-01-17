@@ -43,6 +43,16 @@ This is a standalone node demonstrating a simple 1D Kalman filter.
     ros2 run bumperbot_localization kalman_filter
     ```
 
+### `odometry_motion_model.py`
+
+This node implements a probabilistic motion model for odometry. It's a sampling-based approach to represent the robot's pose belief.
+
+*   **Description**: Subscribes to `/bumperbot_controller/odom` and publishes a `PoseArray` of samples on `/odometry_motion_model/samples`. These samples represent the robot's pose belief, with noise added based on the motion model's `alpha` parameters. This is a fundamental concept in particle filters.
+*   **To Run**:
+    ```bash
+    ros2 run bumperbot_localization odometry_motion_model.py
+    ```
+
 ## How to Build
 
 ```bash

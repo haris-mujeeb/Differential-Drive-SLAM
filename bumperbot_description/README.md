@@ -11,6 +11,7 @@ This package contains all the necessary files to describe the Bumperbot robot wi
 *   **Meshes:** Using 3D model files (e.g., `.STL`) for accurate visual representation of robot components.
 *   **Launch Files:** Creating Python launch files to spawn the robot in Gazebo and configure `robot_state_publisher`.
 *   **TF (Transformations):** How `robot_state_publisher` broadcasts the robot's joint states as transformations to the TF tree.
+*   **2D Lidar:** A 2D Lidar has been added to the robot for environment scanning. The `laser_link` is defined in `bumperbot.urdf.xacro`, and the Gazebo plugin in `bumperbot_gazebo.xacro` enables the Lidar to publish sensor data to the `/scan` topic.
 
 ## Key Files and Directories
 
