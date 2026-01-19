@@ -21,7 +21,7 @@ def generate_launch_description():
     description='Absolute path to robot urdf file'
   )
 
-  world_name_arg = DeclareLaunchArgument(name="world_name", default_value="empty")
+  world_name_arg = DeclareLaunchArgument(name="world_name", default_value="small_warehouse")
 
   world_path = PathJoinSubstitution([
     bumperbot_description_dir,
@@ -69,9 +69,9 @@ def generate_launch_description():
     arguments=[
       '-topic', 'robot_description',
       '-name', 'bumperbot',
-      # '-x', '0.0',
-      # '-y', '0.0',
-      # '-z', '0.02'
+      '-x', '0.0',
+      '-y', '0.0',
+      '-z', '0.1'
     ])
 
   gz_ros2_bridge = Node(
