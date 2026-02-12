@@ -4,6 +4,8 @@ Welcome to my personal workspace for learning ROS 2! This repository is where I'
 
 <img width="242" height="304" alt="image" src="https://github.com/user-attachments/assets/f0cac622-c647-46f7-9ec5-e16c21bcf405" />
 
+https://github.com/user-attachments/assets/2412433a-b701-415f-894d-14298d1e78c0
+
 ## A Beginner's Guide to this Workspace
 
 If you're new to ROS 2 and robotics, this workspace is designed to help you understand the foundational concepts of building and controlling a robot. We'll cover:
