@@ -1,10 +1,11 @@
-# Bumperbot Workspace: My ROS 2 Learning Journey
-
-Welcome to my personal workspace for learning ROS 2! This repository is where I'm documenting my progress through the "Self-Driving and ROS 2 - Learn by Doing! Odometry & Control" tutorial by AntoBrandi. My goal is to create a comprehensive guide for beginners, filled with personal notes, explanations, and troubleshooting tips that I discover along the way.
+# Bumperbot Workspace: Implementing SLAM
 
 <img width="242" height="304" alt="image" src="https://github.com/user-attachments/assets/f0cac622-c647-46f7-9ec5-e16c21bcf405" />
 
 https://github.com/user-attachments/assets/2412433a-b701-415f-894d-14298d1e78c0
+
+## Special Thanks:
+"Self-Driving and ROS 2 - Learn by Doing! Odometry & Control" tutorials by AntoBrandi.
 
 ## A Beginner's Guide to this Workspace
 
